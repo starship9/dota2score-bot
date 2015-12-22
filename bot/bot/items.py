@@ -11,6 +11,5 @@ import scrapy
 class BotItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    title = scrapy.Field()
+    team = scrapy.Field()
     link = scrapy.Field()
-    desc = scrapy.Field()
